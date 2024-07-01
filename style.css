@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.tout{
+   background: #c2aebd;
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+height: 100vh;
+}
+.vertical{
+width: 10px;
+height: 85vh;
+background: rgb(211, 49, 211);
+border-radius: 5px;
+}
+.vertical2{
+    width: 30px;
+    height: 90vh;
+    background: rgb(154, 40, 207); 
+border-radius: 10px;
+
+}
+.take{
+  
+    width: 100vw;
+    position: absolute;
+    z-index: 10;
+    top:0px;
+
+}
+.container{
+    background: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 90px auto;
+    border-radius: 20px;
+    /* position: absolute; */
+}
+.formcont{
+    margin: 0 50px;
+    padding-top: 20px;
+
+}
+.input{
+    border: 1px solid rgb(207, 196, 196);
+    display: flex;
+    padding: 5px;
+ }
+  input{
+    border: none;
+    outline: none;
+ }
+ .input:focus-within{
+    border: 1px solid rgb(6, 150, 218, 0.4);
+ }
+ .input svg{
+    height: 20px;
+ }
+ /* button */
+ .btn{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: rgb(189, 47, 218);
+    margin-bottom: 10px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+ }
+ form{
+    text-align: center;
+
+ }
+ a{
+    text-decoration: none;
+    font-size: 13px;
+    color:rgb(13, 144, 231);
+ }
+ /* horizontal line with text in */
+ .line-text {
+    display: flex;
+    align-items: center; 
+    text-align: center; 
+    font-size: 10px;
+    color:  #a09898;
+  }
+  
+  .line-text::before,
+  .line-text::after {
+    content: "";
+    flex: 1 1; 
+    border-bottom: 1px solid #ccc; 
+    margin: 0 10px;
+  }
+  /* icons */
+  .footer-media{
+    display: flex;
+    justify-content: space-between;
+ width: 60%;
+    margin: 10px auto;
+   }
+ 
+  .footer-media img{
+     width: 30px;
+     border-radius: 3px;
+   }
+   .last{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+   }
+   #iamtext{
+   color: rgb(32, 30, 30);
+    margin-bottom: 8px;
+   }
+    .last button{
+        border: 1px solid rgb(235, 225, 225);
+        padding: 6px 15px;
+    background: transparent;
+border-radius: 3px;
+color: rgb(13, 144, 231); 
+}
+  
+
